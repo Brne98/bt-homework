@@ -27,7 +27,7 @@
         // 2. Postaviti jednu random vrednost od 0 do 6 (int) u jednu promenljivu. Ispisati na ekranu “Danas je …!” u zavisnosti od broja u promenljivoj.
         // Primer ako je br 5 “Danas je petak!”. Mozete racunati 0 kao ponedeljak ili kao nedelju.
 
-            $day= rand(0,6);
+            $day= 3;
             if ($day==1){
                 echo "Danas je ponedeljak";
             } else if($day==2){
