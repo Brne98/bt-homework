@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registar</title>
+</head>
+<body>
+    <form action="register.php" method="get">
+        <legend id="legend">Registar CV-a</legend>
+        <fieldset>
+            
+
+            <!--Ime kandidata-->
+
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" placeholder="Ime" >
+            <br>
+
+            <!--Prezime kandidata-->
+
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" name="prezime" placeholder="Prezime">
+            <br><br>
+
+            <!--Pol kandidata-->
+
+            <label for="pol">Pol:</label>
+            <label for="muski">Muski</label>
+            <input type="radio" id="muski" name="pol" value="Muski" >
+            <label for="zenski">Zenski</label>
+            <input type="radio" id="zenski" name="pol" value="Zenski" >
+            <br><br>
+
+            <!--Email kandidata-->
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="" >
+            <br>
+
+            <!--Sifra kandidata-->
+
+            <label for="password">Sifra:</label>
+            <input type="password" id="password" name="password" value="" >
+            <br>
+
+            <!--Ponovljena sifra kandidata-->
+
+            <label for="repassword">Ponovi sifru:</label>
+            <input type="password" id="repassword" name="retype_password" value="" >
+            <br>
+
+            <!--Omiljeni jezik kandidata-->
+
+            <label for="kurs">Omiljeni jezik:</label>
+            <label>
+                <input type="radio" name="html" value="HTML">
+                <label for="html">HTML</label>
+                <input type="radio" name="css" value="CSS">
+                <label for="css">CSS</label>
+                <input type="radio" name="php" value="PHP">
+                <label for="php">PHP</label>
+            <br>
+
+            <!--Slika kandidata-->
+
+            <label for="pic">Slika:</label>
+            <input type="file" id="pic" name="slika">
+            
+            <br><br>
+            
+            <!--Dugme Sacuvaj i ponisti-->
+            
+            <button id="save" type="submit">Sacuvaj</button>
+            <button id="delete" type="reset">Ponisti</button>
+            
+
+            <br><br>
+            
+        </fieldset>
+    
+    </form>
+</body>
+</html>
