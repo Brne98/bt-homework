@@ -1,0 +1,235 @@
+/* HEADER I FOOTER - POCETAK */
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.search-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.search-box label{
+    margin-right: 10px;
+}
+
+header nav ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+header nav ul{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 60%;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-items{
+    display: grid;
+    background-image: url(../img/matrix.jpg);
+    padding-bottom: 10px;
+}
+
+header nav{
+    border-top:3px solid white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.header-items a,.header-items img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.header-items img{
+    border: 1px solid white;
+}
+
+.footer-top{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.copyright{
+    display: flex;
+    background-color: rgb(17, 17, 17);
+}
+
+.copyright p{
+    margin: auto;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+/* HEADER I FOOTER - KRAJ */
+
+main{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
+main label{
+    width: 100px;
+    margin: 10px;
+}
+
+.input{
+    margin-bottom: 10px;
+}
+
+main input{
+    width:380px ;
+    border-radius: 10px;
+}
+
+main textarea{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.input-textarea{
+    display: grid;
+}
+
+.input{
+    display: flex;
+}
+
+fieldset{
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button button{
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.button button a{
+    color: white;
+}
+
+.button button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+.button button a:hover{
+    color: black;
+}
+
+a{
+    color:white;
+}
+
+@media(max-width:992px){
+
+    html{
+        width: 992px;
+    }
+    
+    header{
+        width: 990px;
+    }
+
+    header nav{
+        width: 990px;
+    }
+
+    header nav ul{
+        width: 690px;
+        padding-left: 0;
+        margin-left: 300px;
+    }
+
+    main{
+        width: 990px;
+        
+    }
+}
+
+@media(max-width:576px){
+
+    html{
+        width: 576px;
+    }
+
+    header, main, footer{
+        width: 575px;
+    }
+
+    header nav{
+        width: 575px;
+    }
+
+    header nav ul{
+        width: 275px;
+        margin-left: 20%;
+        text-align: center;
+    }
+
+    main{
+        height: 500px;
+    }
+
+    main form{
+        border-bottom: none;
+    }
+
+    footer{
+        border-top: 1px solid white;
+    }
+}

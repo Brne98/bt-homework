@@ -1,0 +1,281 @@
+/* HEADER I FOOTER - POCETAK */
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.search-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.search-box label{
+    margin-right: 10px;
+}
+
+header nav ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+header nav ul{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 60%;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-items{
+    display: grid;
+    background-image: url(../img/matrix.jpg);
+    padding-bottom: 10px;
+}
+
+header nav{
+    border-top:3px solid white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.header-items a,.header-items img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.header-items img{
+    border: 1px solid white;
+}
+
+.footer-top{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.copyright{
+    display: flex;
+    background-color: rgb(17, 17, 17);
+}
+
+.copyright p{
+    margin: auto;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-top: 1px solid white;
+}
+
+/* HEADER I FOOTER - KRAJ */
+
+a{
+    color: white;
+}
+
+html{
+    background-color: black;
+}
+
+main{
+    display: grid;
+    margin: 10px;
+    margin-left: 30%;
+    color: white;
+    background-color: black;
+}
+
+.block-1{
+    display: flex;
+}
+
+.block-11{
+    display: grid;
+}
+
+.slika{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    background-image: url(../img/gray.jpg);
+}
+
+.slika img{
+    margin: 35px;
+}
+
+.title{
+    width: 275px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-image: url(../img/gray.jpg);
+}
+
+.cena{
+    width: 275px;
+    height: 175px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-image: url(../img/gray.jpg);
+}
+
+.cena button{
+    background-color: black;
+    color: white;
+}
+
+.cena button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    cursor: s;
+}
+
+.block-2{
+    height: 200px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-image: url(../img/gray.jpg);
+}
+
+.block-3{
+    width: 600px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    margin: 10px;
+    background-image: url(../img/gray.jpg);
+}
+
+.rel1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+.rel1 img{
+    width: 100px;
+    height: 100px;
+}
+
+@media(max-width:992px){
+
+    html{
+        width: 992px;
+    }
+    
+    header{
+        width: 990px;
+    }
+
+    header nav{
+        width: 990px;
+    }
+
+    header nav ul{
+        width: 690px;
+        padding-left: 0;
+        margin-left: 300px;
+    }
+
+    main{
+        width: 990px;
+        margin-left: 200px;
+    }
+}
+
+@media(max-width:576px){
+
+    html{
+        width: 576px;
+    }
+
+    header, main, footer{
+        width: 575px;
+    }
+
+    header nav{
+        width: 575px;
+    }
+
+    header nav ul{
+        width: 275px;
+        margin-left: 20%;
+        text-align: center;
+    }
+
+    main{
+        height: 800px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .block-1{
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .block-11{
+        width: 515px;
+    }
+
+    .cena{
+        margin-top: 0;
+        width: 200px;
+        height: 170px;
+    }
+
+    .title{
+        margin-bottom: 0;
+        width: 200px;
+    }
+
+    .block-2{
+        width: 515px;
+        margin-left: 20px;
+    }
+
+    .block-3{
+        width: 515px;
+        height: 130px;
+        margin-left: 20px;
+    }
+
+    .rel1{
+        margin: 12px;
+    }
+
+}
